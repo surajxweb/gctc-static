@@ -94,24 +94,32 @@
 
 					<p>Complete the form, and we'll contact you promptly.</p>
 
-					<form name="contact" method="post" data-netlify="true">
+					<form name="contact" method="POST" data-netlify="true">
 						<div class="row">
 							<div class="col-6 col-12-mobilep">
-								<input type="text" name="name" placeholder="Name" />
+								<p>
+									<label class="form-label">Your Name: <input type="text" name="name" /></label>
+								  </p>
 							</div>
 							<div class="col-6 col-12-mobilep">
-								<input type="email" name="email" placeholder="Email" />
+								<p>
+									<label class="form-label">Your Email: <input type="email" name="email" /></label>
+								  </p>
 							</div>
 							<div class="col-12">
-								<textarea name="message" placeholder="Message" rows="6"></textarea>
+								<p>
+									<label class="form-label">Message: <textarea name="message"></textarea></label>
+								  </p>
 							</div>
 							<div class="col-12">
 								<ul class="actions special">
-									<li><input type="submit" value="Send Message" /></li>
+									<button class="form-button" type="submit">Send Message</button>
 								</ul>
 							</div>
 						</div>
 					</form>
+					  
+					  
 
 					<!-- <ul class="icons">
 						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
